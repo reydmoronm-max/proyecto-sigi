@@ -17,7 +17,7 @@
 
                 <div class="card">
                     <div class="card-body">
-                    <h5 class="card-title">Consulta de oficiales</h5>
+                    <h5 class="card-title">Consulta de Oficiales</h5>
 
                     <!-- Table with stripped rows -->
                     <a href="{{ route('oficiales.create') }}" class="btn" style="background-color: #4154f1; color: white;">
@@ -47,9 +47,9 @@
                                     <td>{{ $item->created_at->format('d/m/Y H:i') }}</td>
                                     <td class="text-center">
                                         <div class="btn-group" role="group">
-                                            <a href="{{ route('oficiales.show', $item->id) }}" class="btn btn-light" data-bs-toggle="tooltip" data-bs-placement="top" title="Consultar">
+                                            <!-- <a href="{{ route('oficiales.show', $item->id) }}" class="btn btn-light" data-bs-toggle="tooltip" data-bs-placement="top" title="Consultar">
                                                 <i class=" ri-eye-line"></i>
-                                            </a>
+                                            </a> -->
                                             <a href="{{ route('oficiales.edit', $item->id) }}" class="btn btn-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Editar">
                                                 <i class=" ri-edit-2-fill"></i>
                                             </a>
