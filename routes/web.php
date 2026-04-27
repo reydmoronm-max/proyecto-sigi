@@ -2,11 +2,13 @@
 
 use App\Http\Controllers\Dashboard;
 use App\Http\Controllers\Infracciones;
+use App\Http\Controllers\Oficiales;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [Dashboard::class, 'index'])->name('home');
 
 Route::resource('infracciones', Infracciones::class);
+Route::resource('oficiales', Oficiales::class);
 
 // Route::prefix('infracciones')->group(function () {
 //     Route::get('/', [Infracciones::class, 'index'])->name('infracciones-index');
