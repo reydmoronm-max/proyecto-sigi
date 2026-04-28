@@ -1239,11 +1239,11 @@ h6 {
 @keyframes fadeIn {
     from {
         opacity: 0;
-        /* transform: translateY(20px); Empieza 20px abajo */
+        transform: translateY(20px); //*Empieza 20px abajo */
     }
     to {
         opacity: 1;
-        /* transform: translateY(0); Termina en su posición original */
+        transform: translateY(0); /* Termina en su posición original */
     }
 }
 
