@@ -5,6 +5,7 @@ use App\Http\Controllers\Dashboard;
 use App\Http\Controllers\Infracciones;
 use App\Http\Controllers\Oficiales;
 use App\Http\Controllers\TiposInfracciones;
+use App\Http\Controllers\ConsultasController; //controlador de consultas att:jeffrey
 use Illuminate\Support\Facades\Route;
 
 // Route::get('/crear-admin', [AuthController::class, 'crearAdmin'])->name('crear-admin');
@@ -19,6 +20,13 @@ Route::middleware('auth')->group(function(){
     Route::resource('infracciones', Infracciones::class);
     Route::resource('oficiales', Oficiales::class);
     Route::resource('tipos_infracciones', TiposInfracciones::class);
+
+    // Rutas del modulo consultas...
+    Route::get('/consultas', [ConsultasController::class, 'index'])->name('consultas.index');
+    //Route::get('/consultas/ciudadano/{cedula}', [ConsultasController::class, 'ciudadano'])->name('consultas.ciudadano');
+   // Route::get('/consultas/vehiculo/{placa}', [ConsultasController::class, 'vehiculo'])->name('consultas.vehiculo');
+    Route::get('/consultas/perfil-ejemplo', [ConsultasController::class, 'perfilPrueba'])->name('consultas.perfil');
+    Route::get('/consultas/buscar', [ConsultasController::class, 'buscar'])->name('consultas.buscar');
 });
 
 
