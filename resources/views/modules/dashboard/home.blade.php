@@ -122,7 +122,7 @@
             },
             xAxis: {
                 type: 'category',
-                data: ['Indocumentado', 'Sin dispositivos de seguridad', 'Comparativa de registros']
+                data: ['Indocumentado', 'Sin dispositivos de seguridad', 'Exceso de velocidad']
             },
             yAxis: {
                 type: 'value'
