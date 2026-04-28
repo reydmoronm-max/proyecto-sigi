@@ -63,7 +63,7 @@
             <div class="col-lg-4 col-md-4">
                 <div class="card info-card customers-card">
                     <div class="card-body">
-                        <h5 class="card-title">Infracciones de Hoy</h5>
+                        <h5 class="card-title">Infracciones de hoy</h5>
                         <div class="d-flex align-items-center">
                             <div class="ps-3">
                                 <h6>{{ 7 }}</h6>
@@ -78,7 +78,7 @@
             <div class="col-12">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">Tipos de Infracciones Más Comunes</h5>
+                        <h5 class="card-title">Tipos de infracciones más comunes</h5>
                         <div id="dashboardBarChart" style="min-height: 400px;" class="echart"></div>
                     </div>
                 </div>
@@ -89,7 +89,7 @@
             <div class="col-lg-6">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">Histórico Semanal de Infracciones</h5>
+                        <h5 class="card-title">Histórico semanal de infracciones</h5>
                         <div id="historicoLineChart" style="min-height: 300px;" class="echart"></div>
                     </div>
                 </div>
@@ -130,7 +130,7 @@
                 data: [45, 32, 18],
                 type: 'bar',
                 itemStyle: {
-                    color: '#032263'
+                    color: '#cf0e2b'
                 }
             }]
         });
@@ -178,7 +178,7 @@
                 data: @json($reincidentes['data']),
                 type: 'bar',
                 itemStyle: {
-                    color: '#ff771d'
+                    color: '#aec8ff'
                 }
             }]
         });

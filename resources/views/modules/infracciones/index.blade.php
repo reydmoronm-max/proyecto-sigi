@@ -27,13 +27,13 @@
                     <table class="table table-bordered datatable">
                         <thead>
                         <tr>
-                            <th>Cédula</th>
-                            <th>Nombres</th>
-                            <th>Apellidos</th>
-                            <th>Placa de Vehículo</th>
-                            <th>Tipo de infracción</th>
-                            <th>Fecha y hora</th>
-                            <th>Acciones</th>
+                            <th style="background-color: #032263; color: white;">Cédula</th>
+                            <th style="background-color: #032263; color: white;">Nombres</th>
+                            <th style="background-color: #032263; color: white;">Apellidos</th>
+                            <th style="background-color: #032263; color: white;">Placa de Vehículo</th>
+                            <th style="background-color: #032263; color: white;">Tipo de infracción</th>
+                            <th style="background-color: #032263; color: white;">Fecha y hora</th>
+                            <th style="background-color: #032263; color: white;">Acciones</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -54,7 +54,7 @@
                                     @endif --}}
                                     <td class="text-center">
                                         <div class="btn-group" role="group">
-                                            <a href="{{ route('infracciones.show', $item->id) }}" class="btn btn-light" data-bs-toggle="tooltip" data-bs-placement="top" title="Consultar">
+                                            <a href="{{ route('infracciones.show', $item->id) }}" class="btn" data-bs-toggle="tooltip" data-bs-placement="top" title="Consultar" style="background-color: #032263; color: white;">
                                                 <i class=" ri-eye-line"></i>
                                             </a>
                                             <a href="{{ route('infracciones.edit', $item->id) }}" class="btn btn-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Editar">
