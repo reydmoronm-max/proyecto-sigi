@@ -5,7 +5,7 @@
         <li class="nav-item">
             <a class="nav-link " href="{{ route('home') }}">
             <i class=" ri-home-2-fill"></i>
-            <span>Dashboard</span>
+            <span>Inicio</span>
             </a>
         </li><!-- End Dashboard Nav -->
 
