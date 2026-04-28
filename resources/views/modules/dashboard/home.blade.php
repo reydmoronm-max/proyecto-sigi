@@ -45,7 +45,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6">
+            {{-- <div class="col-lg-4 col-md-6">
                 <div class="card info-card revenue-card">
                     <div class="card-body">
                         <h5 class="card-title">Tipos de Infracciones</h5>
@@ -58,14 +58,13 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
-        <div class="row justify-content-center">
-            <div class="col-lg-6 col-md-6" Style="text-align: center;">
-                <div class="card info-card sales-card">
+            <div class="col-lg-4 col-md-4">
+                <div class="card info-card customers-card">
                     <div class="card-body">
                         <h5 class="card-title">Infracciones de Hoy</h5>
-                        <div class="d-flex justify-content-center">
+                        <div class="d-flex align-items-center">
                             <div class="ps-3">
                                 <h6>{{ 7 }}</h6>
                                 <span class="text-muted small pt-2 ps-1">Registradas hoy</span>
@@ -131,7 +130,7 @@
                 data: [45, 32, 18],
                 type: 'bar',
                 itemStyle: {
-                    color: '#4154f1'
+                    color: '#032263'
                 }
             }]
         });

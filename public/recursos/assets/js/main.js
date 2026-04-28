@@ -290,24 +290,21 @@
 })();
 
 function mostrarFase(faseDestino) {
-    // 1. Ocultar todas las secciones y quitarles la clase de animación
+    // Ocultar todas las secciones y quitar clase de animación
     for (let i = 1; i <= 3; i++) {
         const seccion = document.getElementById('fase' + i);
         seccion.classList.add('d-none');
         seccion.classList.remove('fase-animada');
     }
 
-    // 2. Seleccionar la fase destino
+    // Selecciona la fase destino
     const faseActual = document.getElementById('fase' + faseDestino);
 
-    // 3. Mostrarla y re-aplicar la animación
+    // Muestra y re-aplica la animación
     faseActual.classList.remove('d-none');
     
-    // Forzamos un "reflow" para que el navegador reinicie la animación
+    // Para que el navegador reinicie la animación
     void faseActual.offsetWidth; 
     
     faseActual.classList.add('fase-animada');
-
-    // (Opcional) Actualizar barra de progreso como hicimos antes
-    actualizarBarra(faseDestino);
 }

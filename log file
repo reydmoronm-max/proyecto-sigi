@@ -1,0 +1,35 @@
+[33mcommit 60266f61fbdef0fc1aa0927c977ef2194a5e5a8c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mvistas-infracciones[m[33m, [m[1;31morigin/vistas-infracciones[m[33m)[m
+Author: Rey M. <reydmoronm@gmail.com>
+Date:   Sun Apr 26 22:14:03 2026 -0400
+
+    modificado select de cedula en vista registrar infraccion
+
+[33mcommit 18d88ebd539487cd65bd9478a60f447dc94f6e3f[m
+Author: Rey M. <reydmoronm@gmail.com>
+Date:   Sun Apr 26 15:16:54 2026 -0400
+
+    modificada vista editar infraccion
+
+[33mcommit 99e4f5cbe8854f8ffb3f2b1b093a7d47326b70e0[m
+Author: Rey M. <reydmoronm@gmail.com>
+Date:   Sun Apr 26 15:07:57 2026 -0400
+
+    agregado select a campo cedula en vista registrar infraccion
+
+[33mcommit 5d0a0ed2855a4d27570f8a1f358c6627183566a8[m
+Author: Rey M. <reydmoronm@gmail.com>
+Date:   Sun Apr 26 14:48:25 2026 -0400
+
+    agregada vista de consultar infraccion
+
+[33mcommit d546b1bb14045e60182311b08a933b8f1fa35392[m
+Author: Rey M. <reydmoronm@gmail.com>
+Date:   Sat Apr 25 21:25:22 2026 -0400
+
+    modificada la vista de agregar infraccion
+
+[33mcommit 5a271539d1f51a79b14329365516c2cf9bcd6b69[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: Rey M. <reydmoronm@gmail.com>
+Date:   Tue Apr 7 23:04:18 2026 -0400
+
+    Primera version del Sistema de Informacion para la Gestion de Infracciones

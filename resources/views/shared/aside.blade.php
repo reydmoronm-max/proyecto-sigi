@@ -3,15 +3,15 @@
         <ul class="sidebar-nav" id="sidebar-nav">
 
         <li class="nav-item">
-            <a class="nav-link " href="{{ route('home') }}">
+            <a class="nav-link collapsed" href="{{ route('home') }}">
             <i class=" ri-home-2-fill"></i>
-            <span>Dashboard</span>
+            <span>Inicio</span>
             </a>
         </li><!-- End Dashboard Nav -->
 
         <li class="nav-item">
             <a class="nav-link collapsed" href="{{ route('infracciones.index') }}">
-            <i class=" ri-pages-line"></i>
+            <i class="ri-traffic-light-fill"></i>
             <span>Infracciones</span>
             </a>
         </li><!-- End Infracciones Page Nav -->

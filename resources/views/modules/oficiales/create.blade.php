@@ -27,7 +27,7 @@
                         <form action="{{ route('oficiales.store') }}" autocomplete="off" method="POST">
                             @csrf
                         
-                            <div class="row g-3">
+                            <div class="row g-3 mt-2">
                                 <div class="col-md-12">
                                     <div class="form-floating">
                                         <input type="text" class="form-control" name="nombres" id="nombres" placeholder="Nombres" required>
@@ -53,7 +53,7 @@
                                 </div>
 
                                 <div class="col-12">
-                                    <button type="submit" class="btn" style="background-color: #4154f1; color: white;">Registrar Oficial</button>
+                                    <button type="submit" class="btn" style="background-color: #032263; color: white;">Registrar Oficial</button>
                                     <a href="{{ route('oficiales.index') }}" class="btn btn-secondary">Cancelar</a>
                                 </div>
                             </div>

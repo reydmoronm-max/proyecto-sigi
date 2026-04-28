@@ -20,7 +20,7 @@
                     <h5 class="card-title">Consulta de infracciones</h5>
 
                     <!-- Table with stripped rows -->
-                    <a href="{{ route('infracciones.create') }}" class="btn" style="background-color: #4154f1; color: white;">
+                    <a href="{{ route('infracciones.create') }}" class="btn" style="background-color: #032263; color: white;">
                         <i class=" ri-add-fill"></i> Registrar Infracción
                     </a>
                     <hr>

@@ -72,7 +72,7 @@
                                 </div>
                                 <hr>
                                 <div class="col-6">
-                                    <button type="button" class="btn" style="background-color: #4154f1; color: white;" onclick="mostrarFase(2)">Siguiente <i class=" ri-arrow-right-line"></i></button>
+                                    <button type="button" class="btn" style="background-color: #032263; color: white;" onclick="mostrarFase(2)">Siguiente <i class=" ri-arrow-right-line"></i></button>
                                 </div>
                             </section>
 
@@ -119,7 +119,7 @@
                                 <hr>
                                 <div class="col-6">
                                     <button type="button" class="btn btn-secondary" onclick="mostrarFase(1)">Atrás <i class="ri-arrow-go-back-line"></i></button>
-                                    <button type="button" class="btn" style="background-color: #4154f1; color: white;" onclick="mostrarFase(3)">Siguiente <i class=" ri-arrow-right-line"></i></button>
+                                    <button type="button" class="btn" style="background-color: #032263; color: white;" onclick="mostrarFase(3)">Siguiente <i class=" ri-arrow-right-line"></i></button>
                                 </div>
                             </section>
 
