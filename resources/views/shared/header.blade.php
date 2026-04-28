@@ -1,11 +1,13 @@
-    <header id="header" class="header fixed-top d-flex align-items-center">
+    <header style="background-color: #032263;" id="header" class="header fixed-top d-flex align-items-center">
 
             <div class="d-flex align-items-center justify-content-between">
-            <a href="{{ route('home') }}" class="logo d-flex align-items-center">
-                <img src="#" alt="">
-                <span style="font-size: 16.5px;" class="d-none d-lg-block">Sistema de Gestión de Infracciones</span>
-            </a>
-            <i class="bi bi-list toggle-sidebar-btn"></i>
+                <i style="color: white;" class="bi bi-list toggle-sidebar-btn"></i>
+                &nbsp;&nbsp;&nbsp;
+                <img style="width: 36px;" src="{{ asset('recursos/assets/img/logo.png') }}" alt="">
+                &nbsp;&nbsp;
+                <a href="{{ route('home') }}" class="logo d-flex align-items-center">
+                    <span style="font-size: 22px; color: white; white-space: nowrap;" class="d-none d-lg-block">Sistema de Gestión de Infracciones</span>
+                </a>
             </div><!-- End Logo -->
 
 
@@ -15,7 +17,7 @@
 
                 <li class="nav-item dropdown pe-3">
 
-                <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+                <a style="color: white;" class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
                     {{-- <img src="{{ asset('recursos/assets/img/profile-img.jpg') }}" alt="Profile" class="rounded-circle"> --}}
                     <span class="d-none d-md-block dropdown-toggle ps-2"><i class=" ri-settings-3-fill"></i></span>
                 </a>

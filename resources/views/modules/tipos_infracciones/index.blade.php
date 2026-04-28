@@ -20,7 +20,7 @@
                     <h5 class="card-title">Consulta de tipos de infracciones</h5>
 
                     <!-- Table with stripped rows -->
-                    <a href="{{ route('tipos_infracciones.create') }}" class="btn" style="background-color: #4154f1; color: white;">
+                    <a href="{{ route('tipos_infracciones.create') }}" class="btn" style="background-color: #032263; color: white;">
                         <i class=" ri-add-fill"></i> Registrar Tipo de Infracción
                     </a>
                     <hr>
@@ -37,7 +37,7 @@
                                     <td>{{ $item->nombre }}</td>
                                     <!-- <td>{{ $item->created_at->format('d/m/Y H:i') }}</td> -->
                                     <td class="text-center">
-                                        <div class="btn-group" role="group">
+                                        <div class="" role="group">
                                             <a href="{{ route('tipos_infracciones.edit', $item->id) }}" class="btn btn-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Editar">
                                                 <i class=" ri-edit-2-fill"></i>
                                             </a>

@@ -20,7 +20,7 @@
                     <h5 class="card-title">Consulta de Oficiales</h5>
 
                     <!-- Table with stripped rows -->
-                    <a href="{{ route('oficiales.create') }}" class="btn" style="background-color: #4154f1; color: white;">
+                    <a href="{{ route('oficiales.create') }}" class="btn" style="background-color: #032263; color: white;">
                         <i class=" ri-add-fill"></i> Registrar Oficial
                     </a>
                     <hr>
@@ -45,7 +45,7 @@
                                     @endif
                                     <!-- <td>{{ $item->created_at->format('d/m/Y H:i') }}</td> -->
                                     <td class="text-center">
-                                        <div class="btn-group" role="group">
+                                        <div class="" role="group">
                                             <a href="{{ route('oficiales.edit', $item->id) }}" class="btn btn-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Editar">
                                                 <i class=" ri-edit-2-fill"></i>
                                             </a>
