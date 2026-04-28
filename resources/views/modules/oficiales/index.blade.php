@@ -27,10 +27,10 @@
                     <table class="table table-bordered datatable">
                         <thead>
                         <tr>
-                            <th>Nombres</th>
-                            <th>Apellidos</th>
-                            <th>Estatus</th>
-                            <th>Acciones</th>
+                            <th style="background-color: #032263; color: white;">Nombres</th>
+                            <th style="background-color: #032263; color: white;">Apellidos</th>
+                            <th style="background-color: #032263; color: white;">Estatus</th>
+                            <th style="background-color: #032263; color: white;">Acciones</th>
                         </tr>
                         </thead>
                         <tbody>

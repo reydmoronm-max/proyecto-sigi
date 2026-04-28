@@ -1,4 +1,4 @@
-<aside id="sidebar" class="sidebar">
+<aside style="background-color: #d8e4ff" id="sidebar" class="sidebar">
 
         <ul class="sidebar-nav" id="sidebar-nav">
 
@@ -8,7 +8,7 @@
             <span>Inicio</span>
             </a>
         </li><!-- End Dashboard Nav -->
-
+        <hr>
         <li class="nav-item">
             <a class="nav-link collapsed" href="{{ route('infracciones.index') }}">
             <i class="ri-traffic-light-fill"></i>

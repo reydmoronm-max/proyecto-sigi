@@ -27,8 +27,8 @@
                     <table class="table table-bordered datatable">
                         <thead>
                         <tr>
-                            <th>Nombre</th>
-                            <th>Acciones</th>
+                            <th style="background-color: #032263; color: white;">Nombre</th>
+                            <th style="background-color: #032263; color: white;">Acciones</th>
                         </tr>
                         </thead>
                         <tbody>
