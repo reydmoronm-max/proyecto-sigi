@@ -16,6 +16,20 @@
             </a>
         </li><!-- End Infracciones Page Nav -->
 
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="{{ route('oficiales.index') }}">
+            <i class=" ri-user-star-line"></i>
+            <span>Oficiales</span>
+            </a>
+        </li><!-- End Oficiales Page Nav -->
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="{{ route('tipos_infracciones.index') }}">
+            <i class=" ri-file-list-line"></i>
+            <span>Tipos de Infracciones</span>
+            </a>
+        </li><!-- End Tipos Infracciones Page Nav -->
+
         </ul>
 
     </aside>
