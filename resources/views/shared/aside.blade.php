@@ -12,7 +12,7 @@
         <li class="nav-item">
             <a class="nav-link collapsed" href="{{ route('infracciones.index') }}">
             <i class="ri-traffic-light-fill"></i>
-            <span>Infracciones</span>
+            <span>Infraccion</span>
             </a>
         </li><!-- End Infracciones Page Nav -->
 
@@ -30,6 +30,13 @@
             </a>
         </li><!-- End Tipos Infracciones Page Nav -->
 
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="{{ route('consultas.index') }}">
+                <i class="ri-search-eye-line"></i>
+                <span>Consultas</span>
+            </a>
+        </li><!-- End Consultas Page Nav -->
+        
         </ul>
 
     </aside>
